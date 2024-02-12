@@ -5,6 +5,8 @@ for (int i = 1; i < lines.Length; i++)
     data[i] = new Hianyzas(lines[i]);
 }
 
+Console.WriteLine($"Rögzített hiányzások száma: {data.Length-1}");
+
 struct Hianyzas
 {
     public string Nev;
