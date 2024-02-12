@@ -39,4 +39,14 @@ struct Hianyzas
         }
         return sum;
     }
+
+    public int Perc()
+    {
+        int mins = 0;
+        for (int i = 0; i < MulasztottOrak.Count; i++)
+        {
+            mins += MulasztottOrak[i] * 45;
+        }
+        return mins;
+    }
 }
